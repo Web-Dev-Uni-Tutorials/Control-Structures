@@ -1,4 +1,4 @@
-# Data and Variables
+# Control Structures
 * Clone the repository or click the download button (it's a big green button)
 * Unzip the folder
 * Open the .js file in a text editor
