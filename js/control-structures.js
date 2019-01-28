@@ -62,6 +62,13 @@ c) Re-write the loop as a while loop
 */
 
 /*
+for(let i=1;i<=10;i++)
+{
+    console.log(i);
+}
+*/
+
+/*
 10) Write a JavaScript program that asks the user for their name and then for a number. The
 program should output the user's name repeatedly. e.g. If the user enters 4 for the number
 their name should be printed 4 times. If they enter 6, the name should be printed 6 times
@@ -84,6 +91,7 @@ for(let i=1;i<=12;i++)
 a)Can you re-write this program using a for loop so that the code is more efficient and easier to maintain?
 b) One problem is that if the user answer correctly on the first attempt they are still asked two more times. Do some research into the 'break' statement e.g. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break
 */
+
 /*
 let userGuess;
 alert("You get three guesses for the following question");
@@ -119,7 +127,7 @@ if(userGuess===1){
 
 /*
 13) Uncomment the following program. It is an example from the lecture. 
-a) Modify the program so that everytime the user guesses, the program tells the user if their guess is too high or too low. 
+a) Modify the program so that every time the user guesses, the program tells the user if their guess is too high or too low. 
 b)If you can get this to work it makes the game too easy. Modify the program so that a
 random number between 1 and 100 is generated (instead of 1 to 10).
 */
