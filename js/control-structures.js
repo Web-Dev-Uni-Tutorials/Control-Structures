@@ -1,29 +1,29 @@
 /*
 1) Create a JavaScript application that asks the user what their name is. If they answer 'Fred' feedback
-to the user telling tell them you like their name.
+to the user telling tell them you like their name. (slides 5-7)
 */
 
 
 /*
 2) Create a JavaScript application that asks the user for 2 numbers and feeds back to the user with the
-highest of the two numbers.
+highest of the two numbers.(slides 5-7)
 */
 
 /*
 3) Create a JavaScript application that asks the user for their age. If the user is older than 4 and
-younger than 16 feedback to the user telling them they should be at school
+younger than 16 feedback to the user telling them they should be at school. (slides 11-16)
 */
 
 /*
 4) Create a JavaScript program that asks the user for the name of the Prime Minister. If the user
-responds with 'Theresa', 'Theresa May' or 'May' the program should feedback telling them they
-are correct.
+responds with 'Boris', 'Boris Johnson' or 'Johnson' the program should feedback telling them they
+are correct. (slides 11-16)
 */
 
 
 /*
 5) Question 4 asks the user for the name of the Prime Minister. It is possible that the user will enter the
-answer in lower case e.g. 'theresa may'. Again do some research do find out how the case of string
+answer in lower case e.g. 'boris'. Again do some research do find out how the case of string
 data can be converted from upper to lower case - 
 https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase
 Modify your answer to question 4 to make the program more robust.
@@ -31,7 +31,7 @@ Modify your answer to question 4 to make the program more robust.
 
 /*
 6) Create a JavaScript program that asks the user for three numbers and feeds back to the user with
-the lowest.
+the lowest.(slides 11-16)
 */
 
 /*
@@ -98,7 +98,7 @@ alert("You get three guesses for the following question");
 
 userGuess=parseInt(prompt("How many times have Huddersfield Town won the FA Cup?"));
 if(userGuess===1){
-	alert("You are correct");
+    alert("You are correct");
 }else if(userGuess<1){
     alert("Too low");
 }else if(userGuess>1){
@@ -107,7 +107,7 @@ if(userGuess===1){
 
 userGuess=parseInt(prompt("How many times have Huddersfield Town won the FA Cup?"));
 if(userGuess===1){
-	alert("You are correct");
+    alert("You are correct");
 }else if(userGuess<1){
     alert("Too low");
 }else if(userGuess>1){
