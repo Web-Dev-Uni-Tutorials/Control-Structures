@@ -82,12 +82,6 @@ c) Re-write the loop as a while loop
 */
 
 /*
-for(let i=1;i<=10;i++){
-    console.log(i);
-}
-*/
-
-/*
 for(let i=0;i<=50;i++){
     console.log(i);
 }
@@ -185,14 +179,6 @@ for(let i=1;i<=userNum;i++){
 const userNum=prompt("Tell me a number");
 for(let i=1;i<=12;i++)
 {
-    console.log(i);
-}
-*/
-
-/*
-const userNum=prompt("Tell me a number");
-for(let i=1;i<=12;i++)
-{
     console.log(`${userNum} times ${i} = ${i*userNum}`);
 }
 */
@@ -201,38 +187,6 @@ for(let i=1;i<=12;i++)
 12) Uncomment the following program. It is a simple quiz where the user gets three guesses. Run the code in a browser to see what it does.
 a)Can you re-write this program using a for loop so that the code is more efficient and easier to maintain?
 b) One problem is that if the user answers correctly on the first attempt they are still asked two more times. Do some research into the 'break' statement e.g. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/break
-*/
-
-/*
-let userGuess;
-alert("You get three guesses for the following question");
-
-userGuess=parseInt(prompt("How many times have Huddersfield Town won the FA Cup?"));
-if(userGuess===1){
-    alert("You are correct");
-}else if(userGuess<1){
-    alert("Too low");
-}else if(userGuess>1){
-    alert("Too high");
-}
-
-userGuess=parseInt(prompt("How many times have Huddersfield Town won the FA Cup?"));
-if(userGuess===1){
-    alert("You are correct");
-}else if(userGuess<1){
-    alert("Too low");
-}else if(userGuess>1){
-    alert("Too high");
-}
-
-userGuess=parseInt(prompt("How many times have Huddersfield Town won the FA Cup?"));
-if(userGuess===1){
-	alert("You are correct");
-}else if(userGuess<1){
-    alert("Too low");
-}else if(userGuess>1){
-    alert("Too high");
-}
 */
 
 /*
@@ -255,29 +209,6 @@ for(let i=1;i<=3;i++) {
 13) Uncomment the following program. It is an example from the lecture slides.
 a) Modify the program so that every time the user guesses, the program tells the user if their guess is too high or too low.
 b) If you can get this to work it makes the game too easy. Modify the program so that a random number between 1 and 100 is generated (instead of 1 to 10).
-*/
-
-/*
-const ranNum = Math.floor(Math.random()*10+1);
-let correct = false;
-let count = 0;
-let msg;
-while(correct === false)
-{
-    count++;
-    let userGuess = parseInt(prompt("Guess the random number"));
-    if(userGuess === ranNum)
-    {
-        correct = true;
-    }
-}
-msg = `You guessed the random number is ${ranNum} it took you ${count}`;
-if(count === 1){
-    msg = msg+" guess"
-}else{
-    msg = msg+" guesses"
-}
-console.log(msg)
 */
 
 /*
