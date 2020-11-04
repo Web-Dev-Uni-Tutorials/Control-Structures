@@ -1,3 +1,4 @@
+# Control Structures
 * Click the 'code' button (it's a big green button) and choose download.
 * Unzip the folder.
 * Open the .js file in a text editor.
