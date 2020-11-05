@@ -1,5 +1,5 @@
 /*
-1) Create a JavaScript application that asks the user what their name is. If they answer 'Fred' feedback to the user telling tell them you like their name. (slide 6 has a very similar example)
+1) Create a JavaScript application that asks the user what their name is. If they answer 'Fred' feedback to the user telling tell them you like their name. (slide 7 has a very similar example)
 */
 
 /*
