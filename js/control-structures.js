@@ -11,7 +11,7 @@
 */
 
 /*
-4) Create a JavaScript program that asks the user for the name of the Prime Minister. If the user responds with 'Boris', 'Boris Johnson' or 'Johnson' the program should feedback telling them they are correct.
+4) Create a JavaScript a simple quiz program. The program should ask the user for the name of the world's first computer programmer. If the user responds with 'Ada Lovelace' or 'Lovelace' the program should feedback telling them they are correct.
 */
 
 /*
@@ -23,7 +23,7 @@ Most students find the following questions a bit more difficult, so don't worry 
 */
 
 /*
-6) Question 4 asked the user for the name of the Prime Minister. It is possible that the user will enter the answer in lower case e.g. 'boris'. Do some research do find out how the case of string data can be converted from upper to lower case - https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase. Modify your answer to question 4 to make the program more robust i.e it doesn't matter what case the user uses to answer the question and the program still works.
+6) In question 4 it is possible that the user will enter the answer in lower case e.g. 'lovelace'. Do some research do find out how the case of string data can be converted from upper to lower case - https://developer.mozilla.org/en/docs/Web/JavaScript/Reference/Global_Objects/String/toLowerCase. Modify your answer to question 4 to make the program more robust i.e it doesn't matter what case the user uses to answer the question and the program still works.
  */
 
 /*
